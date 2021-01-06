@@ -24,38 +24,45 @@ li {
 }
 
 .main {
-  background-color: #bdf7f1;
-  height: 600px;
+  /* Hapuskan CSS background-color */
+  
+  /* Hapuskan CSS height */
+  
+  /* Gantikan padding atas & bawah ke 100px, dan padding kiri & kanan ke 80px */
+  padding: 100px 80px;
+}
+
+/* Gantikan font-size tag <h1> didalam copy-container */
+.copy-container h1 {
+  font-size: 140px;
+}
+
+/* Gantikan font-size tag <h2> didalam copy-container */
+.copy-container h2 {
+  font-size: 60px;
+}
+
+/* Gantikan color tags <span> didalam copy-container */
+.copy-container span {
+  color: #ff4a4a;
 }
 
 .footer {
-  /* Gantikan background-color ke #2f5167 */
   background-color: #2f5167;
-  
-  /* Gantikan color ke #fff */
   color: #fff;
-  
-  /* Gantikan height ke 120px */
   height: 120px;
-
-  
-  /* Gantikan padding untuk semua sisi ke 40px */
-  padding: 40px;  
-  
+  padding: 40px;
 }
 
-/* Gantikan font-size dan property float footer-logo */
 .footer-logo {
-  font-size: 32px;
   float: left;
+  font-size: 32px;
 }
 
-/* Gantikan float property footer-list */
 .footer-list {
   float: right;
 }
 
-/* Tambahkan CSS untuk tag <li> kedalam footer-list */
 .footer-list li {
   padding-bottom: 20px;
 }
