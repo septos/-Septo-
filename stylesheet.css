@@ -18,8 +18,7 @@ a {
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
   color: white;
-  /* Ubah nilai property text-align ke center */
-    text-align: center;
+  text-align: center;
 }
 
 .top-wrapper h1 {
@@ -32,7 +31,6 @@ a {
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
-
 }
 
 .btn {
@@ -40,15 +38,12 @@ a {
   color: white;
   display: inline-block;
   opacity: 0.8;
-  /* Ubah nilai border-radius ke 4px */
   border-radius: 4px;
 }
 
-/* Tambahkan CSS untuk btn pada saat ditunjuk */
 .btn:hover {
   opacity: 1;
 }
-
 
 .signup {
   background-color: #239b76;
@@ -70,3 +65,10 @@ a {
 .btn-wrapper p {
   margin: 10px 0;
 }
+
+/* Gantikan margin-right milik fa ke 5px */
+span {
+  margin-right: 5px;
+}
+
+
